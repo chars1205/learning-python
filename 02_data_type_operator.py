@@ -58,7 +58,7 @@ print(unionA)
 intersectionA = a.intersection(b)
 print(intersectionA)
 
-# 튜플
+#---튜플
 # 튜플은 리스트와 유사하나, 읽기전용임
 # 읽기 전용인 만큼 제공되는 함수도 리스트에 비해 적지만, 속도는 그만큼 빠름
 # 튜플에서 제공되는 메소드는 count, index 정도임
@@ -67,7 +67,7 @@ print(a, b)
 a, b = b, a
 print(a, b)
 
-# 딕셔너리
+#---딕셔너리
 # 딕셔너리는 Object와 같이 키와 값의 쌍으로 이루어져 있다 
 d = dict(a = 1, b = 3, c = 5)
 print(d)
@@ -88,7 +88,7 @@ del color['cherry']
 print(color)
 color.clear()
 print(color)
-# 부울 (bool)
+#---부울 (bool)
 # 부울은 참과 거짓을 나타내는 자료형으로, 가능한 값은 True와 False뿐
 # 주로 부울은 부울 값들 간의 논리연산이나, 수치들 간의 비교연상의 결과로 사용
 
@@ -96,7 +96,7 @@ print(color)
 # 논리 연산자 'and(&)', 'or(|)', 'not'이 있음
 print(not 1 == 2)
 
-# 얕은 복사 vs 깊은 복사
+#---얕은 복사 vs 깊은 복사
 # 변수에는 객체의 주소를 저장
 one = [1, 2, 3]
 two = one
